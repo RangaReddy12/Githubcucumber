@@ -122,5 +122,10 @@ public void i_verify_emp_id() {
     	}
     	
     }
+@When("i click admin")
+public void i click admin()
+{
+	driver.findElement(By.name("lastName")).sendKeys(lname);
+}
 }
 
