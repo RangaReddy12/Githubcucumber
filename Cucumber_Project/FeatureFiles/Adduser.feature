@@ -21,7 +21,8 @@ Given i open browser with url "http://orangehrm.qedgetech.com"
   When i click logout  
   Then i should see login page
   When i close browser
-  
+  When i click admin to navigate
+  When i enter username
   Examples:
 |FirstName|MiddleName|LastName|
 |Akhi14|Testing1|Selenium1|
