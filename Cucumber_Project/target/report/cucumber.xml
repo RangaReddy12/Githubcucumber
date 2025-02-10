@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="12.181777">
+    <testcase classname="Admin Login" name="Check Admin Login with valid data" time="5.045219">
+        <system-out><![CDATA[Given i open browser with url "http://orangehrm.qedgetech.com"..............passed
+Then i should see login page................................................passed
+When i enter username as "Admin"............................................passed
+And i enter password as "Qedge123!@#".......................................passed
+And i click login...........................................................passed
+Then i should see admin module..............................................passed
+When i click logout.........................................................passed
+Then i should see login page................................................passed
+When i close browser........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Admin Login" name="Check Admin Login with invalid data" time="2.649208">
+        <system-out><![CDATA[Given i open browser with url "http://orangehrm.qedgetech.com"..............passed
+Then i should see login page................................................passed
+When i enter username as "Admin"............................................passed
+And i enter password as "xyz"...............................................passed
+And i click login...........................................................passed
+Then i should see error message.............................................passed
+When i close browser........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Admin Login" name="Check Admin Login with invalid data 2" time="2.27327">
+        <system-out><![CDATA[Given i open browser with url "http://orangehrm.qedgetech.com"..............passed
+Then i should see login page................................................passed
+When i enter username as "abc"..............................................passed
+And i enter password as "QEdge123"..........................................passed
+And i click login...........................................................passed
+Then i should see error message.............................................passed
+When i close browser........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Admin Login" name="Check Admin Login with invalid data 3" time="2.21408">
+        <system-out><![CDATA[Given i open browser with url "http://orangehrm.qedgetech.com"..............passed
+Then i should see login page................................................passed
+When i enter username as "abc"..............................................passed
+And i enter password as "xyz"...............................................passed
+And i click login...........................................................passed
+Then i should see error message.............................................passed
+When i close browser........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

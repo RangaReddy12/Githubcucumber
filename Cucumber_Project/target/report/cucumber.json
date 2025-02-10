@@ -1,0 +1,526 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Check Admin Login with valid data",
+        "description": "",
+        "id": "admin-login;check-admin-login-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2786938300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i open browser with url \"http://orangehrm.qedgetech.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://orangehrm.qedgetech.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "OrangeHRM.i_open_browser_with_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41012100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i should see login page",
+            "match": {
+              "location": "OrangeHRM.i_should_see_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72767200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i enter username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55242300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i enter password as \"Qedge123!@#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qedge123!@#\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113424200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click login",
+            "match": {
+              "location": "OrangeHRM.i_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30081500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i should see admin module",
+            "match": {
+              "location": "OrangeHRM.i_should_see_admin_module()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 726181900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click logout",
+            "match": {
+              "location": "OrangeHRM.i_click_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20726700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i should see login page",
+            "match": {
+              "location": "OrangeHRM.i_should_see_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 192885500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i close browser",
+            "match": {
+              "location": "OrangeHRM.i_close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Check Admin Login with invalid data",
+        "description": "",
+        "id": "admin-login;check-admin-login-with-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1759787700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i open browser with url \"http://orangehrm.qedgetech.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://orangehrm.qedgetech.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "OrangeHRM.i_open_browser_with_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28698500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i should see login page",
+            "match": {
+              "location": "OrangeHRM.i_should_see_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70103300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i enter username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47284900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i enter password as \"xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486315900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i click login",
+            "match": {
+              "location": "OrangeHRM.i_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114713400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i should see error message",
+            "match": {
+              "location": "OrangeHRM.i_should_see_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139660500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i close browser",
+            "match": {
+              "location": "OrangeHRM.i_close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Check Admin Login with invalid data",
+        "description": "",
+        "id": "admin-login;check-admin-login-with-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1648588800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i open browser with url \"http://orangehrm.qedgetech.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://orangehrm.qedgetech.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "OrangeHRM.i_open_browser_with_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26155000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i should see login page",
+            "match": {
+              "location": "OrangeHRM.i_should_see_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68857900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i enter username as \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52315900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i enter password as \"QEdge123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QEdge123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206285200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i click login",
+            "match": {
+              "location": "OrangeHRM.i_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122279900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i should see error message",
+            "match": {
+              "location": "OrangeHRM.i_should_see_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146228400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i close browser",
+            "match": {
+              "location": "OrangeHRM.i_close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Check Admin Login with invalid data",
+        "description": "",
+        "id": "admin-login;check-admin-login-with-invalid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1610862000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i open browser with url \"http://orangehrm.qedgetech.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://orangehrm.qedgetech.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "OrangeHRM.i_open_browser_with_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23495000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i should see login page",
+            "match": {
+              "location": "OrangeHRM.i_should_see_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52477500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i enter username as \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41938500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i enter password as \"xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz\"",
+                  "offset": 20
+                }
+              ],
+              "location": "OrangeHRM.i_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231932600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i click login",
+            "match": {
+              "location": "OrangeHRM.i_click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117662600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i should see error message",
+            "match": {
+              "location": "OrangeHRM.i_should_see_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133548000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i close browser",
+            "match": {
+              "location": "OrangeHRM.i_close_browser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "  I want to use this template to check Admin Login",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "FeatureFiles/AdminLogin.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
